@@ -1,0 +1,1742 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_16e6888d184f5bbbfe80d44c59c8b0d3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_16e6888d184f5bbbfe80d44c59c8b0d3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_16e6888d184f5bbbfe80d44c59c8b0d3 = L.map(
+                "map_16e6888d184f5bbbfe80d44c59c8b0d3",
+                {
+                    center: [-28.223110217391305, -50.959924130434786],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c5b8cf88b1cab7c8c96be748520e23ff = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c5b8cf88b1cab7c8c96be748520e23ff.addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var marker_6644beee439a67aa20fe3e95b58d1730 = L.marker(
+                [-30.00312, -51.16047],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_53a5a52d6f0eb4a7bf74aebd82b20221 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6644beee439a67aa20fe3e95b58d1730.setIcon(icon_53a5a52d6f0eb4a7bf74aebd82b20221);
+        
+    
+        var popup_ca4614f7182931a487e1ad1c15a50323 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_57e63254ec0e6be498cc3e6b2f384958 = $(`<div id="html_57e63254ec0e6be498cc3e6b2f384958" style="width: 100.0%; height: 100.0%;">UBSVF</div>`)[0];
+                popup_ca4614f7182931a487e1ad1c15a50323.setContent(html_57e63254ec0e6be498cc3e6b2f384958);
+            
+        
+
+        marker_6644beee439a67aa20fe3e95b58d1730.bindPopup(popup_ca4614f7182931a487e1ad1c15a50323)
+        ;
+
+        
+    
+    
+            var marker_966b01022da73d68a71eac12d1dcf185 = L.marker(
+                [-30.1192, -51.20733],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_53782db78597d9b473c7bb326e160aee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_966b01022da73d68a71eac12d1dcf185.setIcon(icon_53782db78597d9b473c7bb326e160aee);
+        
+    
+        var popup_17683b09486cd6aa37ef14bc350c5799 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f47a635c5347dc0c76140a87f84d57b = $(`<div id="html_6f47a635c5347dc0c76140a87f84d57b" style="width: 100.0%; height: 100.0%;">ASSOCIACAO HOSPITALAR VILA NOVA</div>`)[0];
+                popup_17683b09486cd6aa37ef14bc350c5799.setContent(html_6f47a635c5347dc0c76140a87f84d57b);
+            
+        
+
+        marker_966b01022da73d68a71eac12d1dcf185.bindPopup(popup_17683b09486cd6aa37ef14bc350c5799)
+        ;
+
+        
+    
+    
+            var marker_63d45ea96697f2ada28881f7fefd8669 = L.marker(
+                [-30.01589, -51.15826],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_38a703c53e6a7fc7f62cc274545e3119 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_63d45ea96697f2ada28881f7fefd8669.setIcon(icon_38a703c53e6a7fc7f62cc274545e3119);
+        
+    
+        var popup_c940d3350a92387a827261e1f2856e46 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e6b545d703d98da2ce32eb68d385431 = $(`<div id="html_3e6b545d703d98da2ce32eb68d385431" style="width: 100.0%; height: 100.0%;">HOSPITAL NOSSA SENHORA DA CONCEICAO SA</div>`)[0];
+                popup_c940d3350a92387a827261e1f2856e46.setContent(html_3e6b545d703d98da2ce32eb68d385431);
+            
+        
+
+        marker_63d45ea96697f2ada28881f7fefd8669.bindPopup(popup_c940d3350a92387a827261e1f2856e46)
+        ;
+
+        
+    
+    
+            var marker_26ed96b29f9bc5455a485bcafa1da8a2 = L.marker(
+                [-27.65941, -54.44354],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_72f0504ef54520df17712a067cd6e2b1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_26ed96b29f9bc5455a485bcafa1da8a2.setIcon(icon_72f0504ef54520df17712a067cd6e2b1);
+        
+    
+        var popup_4f177153e91d4a00bc3b8687c6b9a642 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_24035fa0ea99bd6238311c4a9c86e942 = $(`<div id="html_24035fa0ea99bd6238311c4a9c86e942" style="width: 100.0%; height: 100.0%;">HOSPITAL DR OSVALDO TEIXEIRA</div>`)[0];
+                popup_4f177153e91d4a00bc3b8687c6b9a642.setContent(html_24035fa0ea99bd6238311c4a9c86e942);
+            
+        
+
+        marker_26ed96b29f9bc5455a485bcafa1da8a2.bindPopup(popup_4f177153e91d4a00bc3b8687c6b9a642)
+        ;
+
+        
+    
+    
+            var marker_52352cfe8fc121491ca69fc1400af93d = L.marker(
+                [-28.9404, -49.46348],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_8a5cc5689c2d319832508b1ef2c211ea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_52352cfe8fc121491ca69fc1400af93d.setIcon(icon_8a5cc5689c2d319832508b1ef2c211ea);
+        
+    
+        var popup_681baad1c5d46322b9e58c13f458d9fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_23da917ed6e59d1426fbf22aa3d2beaf = $(`<div id="html_23da917ed6e59d1426fbf22aa3d2beaf" style="width: 100.0%; height: 100.0%;">HOSPITAL REGIONAL DEPUTADO AFFONSO GHIZZO</div>`)[0];
+                popup_681baad1c5d46322b9e58c13f458d9fc.setContent(html_23da917ed6e59d1426fbf22aa3d2beaf);
+            
+        
+
+        marker_52352cfe8fc121491ca69fc1400af93d.bindPopup(popup_681baad1c5d46322b9e58c13f458d9fc)
+        ;
+
+        
+    
+    
+            var marker_e2d04956fab6dee0963f821174dfa070 = L.marker(
+                [-30.03856, -51.20612],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_7b716e70463b2d4617c137cda581e244 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e2d04956fab6dee0963f821174dfa070.setIcon(icon_7b716e70463b2d4617c137cda581e244);
+        
+    
+        var popup_87bff48213c6e3d73e6a4c0a308bd790 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a18788ce1e0cff41499cca64aa40c93 = $(`<div id="html_1a18788ce1e0cff41499cca64aa40c93" style="width: 100.0%; height: 100.0%;">HOSPITAL DE CLINICAS</div>`)[0];
+                popup_87bff48213c6e3d73e6a4c0a308bd790.setContent(html_1a18788ce1e0cff41499cca64aa40c93);
+            
+        
+
+        marker_e2d04956fab6dee0963f821174dfa070.bindPopup(popup_87bff48213c6e3d73e6a4c0a308bd790)
+        ;
+
+        
+    
+    
+            var marker_b7a1205e51b19ead66af0153c14b9912 = L.marker(
+                [-29.94, -51.08064],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_e6dd1df08b6aeea6229300f8b0fb139e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b7a1205e51b19ead66af0153c14b9912.setIcon(icon_e6dd1df08b6aeea6229300f8b0fb139e);
+        
+    
+        var popup_cdb46acdaffec153ea815276d50283de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_483baf8d6b7c89f5d34727e0243f41c9 = $(`<div id="html_483baf8d6b7c89f5d34727e0243f41c9" style="width: 100.0%; height: 100.0%;">HOSPITAL PADRE JEREMIAS</div>`)[0];
+                popup_cdb46acdaffec153ea815276d50283de.setContent(html_483baf8d6b7c89f5d34727e0243f41c9);
+            
+        
+
+        marker_b7a1205e51b19ead66af0153c14b9912.bindPopup(popup_cdb46acdaffec153ea815276d50283de)
+        ;
+
+        
+    
+    
+            var marker_fecf9c48bc3918648a5ff98b5646f70a = L.marker(
+                [-31.39157, -52.67819],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_e3f77d602d9b1d55bdb0f8bef847872a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fecf9c48bc3918648a5ff98b5646f70a.setIcon(icon_e3f77d602d9b1d55bdb0f8bef847872a);
+        
+    
+        var popup_4a1c795cc7b8172f5a9dff368cdce41b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe8e4a4e63ffd774e734bce509adb970 = $(`<div id="html_fe8e4a4e63ffd774e734bce509adb970" style="width: 100.0%; height: 100.0%;">HOSPITAL DE CARIDADE DE CANGUCU</div>`)[0];
+                popup_4a1c795cc7b8172f5a9dff368cdce41b.setContent(html_fe8e4a4e63ffd774e734bce509adb970);
+            
+        
+
+        marker_fecf9c48bc3918648a5ff98b5646f70a.bindPopup(popup_4a1c795cc7b8172f5a9dff368cdce41b)
+        ;
+
+        
+    
+    
+            var marker_77ba13b56b24aa311633a6f42d77a15f = L.marker(
+                [-30.03058, -51.22305],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_56d90d7d84b5b091fdd8b419ca2555fc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_77ba13b56b24aa311633a6f42d77a15f.setIcon(icon_56d90d7d84b5b091fdd8b419ca2555fc);
+        
+    
+        var popup_c44b7844726a02f44dd87bcf79333ad2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b57f37bc70018aece5c87c1fd0b7b1a = $(`<div id="html_3b57f37bc70018aece5c87c1fd0b7b1a" style="width: 100.0%; height: 100.0%;">IRMANDADE DA SANTA CASA DE MISERICORDIA DE PORTO ALEGRE</div>`)[0];
+                popup_c44b7844726a02f44dd87bcf79333ad2.setContent(html_3b57f37bc70018aece5c87c1fd0b7b1a);
+            
+        
+
+        marker_77ba13b56b24aa311633a6f42d77a15f.bindPopup(popup_c44b7844726a02f44dd87bcf79333ad2)
+        ;
+
+        
+    
+    
+            var marker_c4cee9f7512238bdf5cd5a1551592c07 = L.marker(
+                [-30.06097, -51.14938],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_9800740c1ea5728399490e43fad96745 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c4cee9f7512238bdf5cd5a1551592c07.setIcon(icon_9800740c1ea5728399490e43fad96745);
+        
+    
+        var popup_a342cad8a59f091995802fef3339e533 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_156a7e02c02aa993207f584df4ca8d72 = $(`<div id="html_156a7e02c02aa993207f584df4ca8d72" style="width: 100.0%; height: 100.0%;">HOSPITAL INDEPENDENCIA</div>`)[0];
+                popup_a342cad8a59f091995802fef3339e533.setContent(html_156a7e02c02aa993207f584df4ca8d72);
+            
+        
+
+        marker_c4cee9f7512238bdf5cd5a1551592c07.bindPopup(popup_a342cad8a59f091995802fef3339e533)
+        ;
+
+        
+    
+    
+            var marker_c1fc6dc19d6c5d64dd6394e9a8472720 = L.marker(
+                [-31.76465, -52.34705],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_64938f896cfcbe7dbcdce55b17d2fe41 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c1fc6dc19d6c5d64dd6394e9a8472720.setIcon(icon_64938f896cfcbe7dbcdce55b17d2fe41);
+        
+    
+        var popup_f318e5cc6a2c9f50b57d6bd6d7124352 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f31115202e8ce6cf62721c9fd8305169 = $(`<div id="html_f31115202e8ce6cf62721c9fd8305169" style="width: 100.0%; height: 100.0%;">HOSPITAL ESCOLA DA UFPEL</div>`)[0];
+                popup_f318e5cc6a2c9f50b57d6bd6d7124352.setContent(html_f31115202e8ce6cf62721c9fd8305169);
+            
+        
+
+        marker_c1fc6dc19d6c5d64dd6394e9a8472720.bindPopup(popup_f318e5cc6a2c9f50b57d6bd6d7124352)
+        ;
+
+        
+    
+    
+            var marker_ed1d4e273c61d3382466c4f99de5c150 = L.marker(
+                [-29.8864, -51.166],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_563fb9918538168a3d09a033511449b0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ed1d4e273c61d3382466c4f99de5c150.setIcon(icon_563fb9918538168a3d09a033511449b0);
+        
+    
+        var popup_facab946ec8656344a05f3939a96f673 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1694b1f0cd78f3647b258888961635eb = $(`<div id="html_1694b1f0cd78f3647b258888961635eb" style="width: 100.0%; height: 100.0%;">HOSPITAL UNIVERSITARIO DE CANOAS</div>`)[0];
+                popup_facab946ec8656344a05f3939a96f673.setContent(html_1694b1f0cd78f3647b258888961635eb);
+            
+        
+
+        marker_ed1d4e273c61d3382466c4f99de5c150.bindPopup(popup_facab946ec8656344a05f3939a96f673)
+        ;
+
+        
+    
+    
+            var marker_d43c2a2d78606ac01c1f33a3f59e26a5 = L.marker(
+                [-29.11376, -49.63109],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_e2c23231ba790e6fa726d464edac16c8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d43c2a2d78606ac01c1f33a3f59e26a5.setIcon(icon_e2c23231ba790e6fa726d464edac16c8);
+        
+    
+        var popup_716a92651ff7a534346dbd70d6ae40ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efc0208b3bc043ff968faec9f4392779 = $(`<div id="html_efc0208b3bc043ff968faec9f4392779" style="width: 100.0%; height: 100.0%;">HOSPITAL DOM JOAQUIM IMAS</div>`)[0];
+                popup_716a92651ff7a534346dbd70d6ae40ab.setContent(html_efc0208b3bc043ff968faec9f4392779);
+            
+        
+
+        marker_d43c2a2d78606ac01c1f33a3f59e26a5.bindPopup(popup_716a92651ff7a534346dbd70d6ae40ab)
+        ;
+
+        
+    
+    
+            var marker_5bcef2c964e8a6be3d447bd25a0b36cf = L.marker(
+                [-29.76527, -50.02457],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_5185fcf2698d393446dad24f00bfcc34 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5bcef2c964e8a6be3d447bd25a0b36cf.setIcon(icon_5185fcf2698d393446dad24f00bfcc34);
+        
+    
+        var popup_383090077f6725bb5c36349ee8b3e631 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_afa7f46272ea2d8bad9bb1279f286b13 = $(`<div id="html_afa7f46272ea2d8bad9bb1279f286b13" style="width: 100.0%; height: 100.0%;">HOSPITAL BENEFICIENTE SANTA LUZIA</div>`)[0];
+                popup_383090077f6725bb5c36349ee8b3e631.setContent(html_afa7f46272ea2d8bad9bb1279f286b13);
+            
+        
+
+        marker_5bcef2c964e8a6be3d447bd25a0b36cf.bindPopup(popup_383090077f6725bb5c36349ee8b3e631)
+        ;
+
+        
+    
+    
+            var marker_2d152944cc6c4b074dce227c6088e7ac = L.marker(
+                [-32.23087, -53.08347],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_fca387fe69abd6fbce503e065a5a7f7d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2d152944cc6c4b074dce227c6088e7ac.setIcon(icon_fca387fe69abd6fbce503e065a5a7f7d);
+        
+    
+        var popup_c64b669192dcd52b604df4b7f04cb8ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7220a67a4edc33c547dcfa08a1b1b28 = $(`<div id="html_f7220a67a4edc33c547dcfa08a1b1b28" style="width: 100.0%; height: 100.0%;">SANTA CASA DE MISERICORDIA DE ARROIO GRANDE</div>`)[0];
+                popup_c64b669192dcd52b604df4b7f04cb8ec.setContent(html_f7220a67a4edc33c547dcfa08a1b1b28);
+            
+        
+
+        marker_2d152944cc6c4b074dce227c6088e7ac.bindPopup(popup_c64b669192dcd52b604df4b7f04cb8ec)
+        ;
+
+        
+    
+    
+            var marker_baf0be1c2631654b09353377a07d545f = L.marker(
+                [-30.04765, -51.2122],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_76540ab0699c2ee7194861aad809907e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_baf0be1c2631654b09353377a07d545f.setIcon(icon_76540ab0699c2ee7194861aad809907e);
+        
+    
+        var popup_a59f63816a607b32dd68dd1697b38c27 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c81a919ccfb6558553fc7dce7f2e6d3 = $(`<div id="html_1c81a919ccfb6558553fc7dce7f2e6d3" style="width: 100.0%; height: 100.0%;">HOSPITAL ERNESTO DORNELLES</div>`)[0];
+                popup_a59f63816a607b32dd68dd1697b38c27.setContent(html_1c81a919ccfb6558553fc7dce7f2e6d3);
+            
+        
+
+        marker_baf0be1c2631654b09353377a07d545f.bindPopup(popup_a59f63816a607b32dd68dd1697b38c27)
+        ;
+
+        
+    
+    
+            var marker_ba272f1df58e34855eb872d15f480adb = L.marker(
+                [-4.18083, -38.13103],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_21a2a124b37eac93b4b307d8b44aed7d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ba272f1df58e34855eb872d15f480adb.setIcon(icon_21a2a124b37eac93b4b307d8b44aed7d);
+        
+    
+        var popup_354db189a4888ec56ab150bc6fb106c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc0d6ccb587aeeee171274c2177dec5b = $(`<div id="html_fc0d6ccb587aeeee171274c2177dec5b" style="width: 100.0%; height: 100.0%;">HOSPITAL MUNICIPAL MONSENHOR DOURADO</div>`)[0];
+                popup_354db189a4888ec56ab150bc6fb106c3.setContent(html_fc0d6ccb587aeeee171274c2177dec5b);
+            
+        
+
+        marker_ba272f1df58e34855eb872d15f480adb.bindPopup(popup_354db189a4888ec56ab150bc6fb106c3)
+        ;
+
+        
+    
+    
+            var marker_5d3b4ae115a50fa943435f5927b3f4e0 = L.marker(
+                [-29.71417, -53.71499],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_3484e2216f8e05b76884cccde036294e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5d3b4ae115a50fa943435f5927b3f4e0.setIcon(icon_3484e2216f8e05b76884cccde036294e);
+        
+    
+        var popup_358417e4dbd9def34d34588a3680012c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82d7b106bee1c8a9813ab8e06a08722b = $(`<div id="html_82d7b106bee1c8a9813ab8e06a08722b" style="width: 100.0%; height: 100.0%;">HOSPITAL UNIVERSITARIO SANTA MARIA</div>`)[0];
+                popup_358417e4dbd9def34d34588a3680012c.setContent(html_82d7b106bee1c8a9813ab8e06a08722b);
+            
+        
+
+        marker_5d3b4ae115a50fa943435f5927b3f4e0.bindPopup(popup_358417e4dbd9def34d34588a3680012c)
+        ;
+
+        
+    
+    
+            var marker_4ca8afe4762e0616e3fb7cc1628cc9ae = L.marker(
+                [-29.19738, -54.86612],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_226b22c1f9cb4d9c86041fcb9bdf6416 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4ca8afe4762e0616e3fb7cc1628cc9ae.setIcon(icon_226b22c1f9cb4d9c86041fcb9bdf6416);
+        
+    
+        var popup_b485e97c163dce1e598dbeb22d88abaf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_223baaecaee68a9b5fb2a54d32b5a176 = $(`<div id="html_223baaecaee68a9b5fb2a54d32b5a176" style="width: 100.0%; height: 100.0%;">HOSPITAL DE CARIDADE DE SANTIAGO</div>`)[0];
+                popup_b485e97c163dce1e598dbeb22d88abaf.setContent(html_223baaecaee68a9b5fb2a54d32b5a176);
+            
+        
+
+        marker_4ca8afe4762e0616e3fb7cc1628cc9ae.bindPopup(popup_b485e97c163dce1e598dbeb22d88abaf)
+        ;
+
+        
+    
+    
+            var marker_b4ac34239f3ab64302986ea748e2f475 = L.marker(
+                [-30.05515, -51.1738],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_f75adca0b1573ca6f3c2f789357891d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b4ac34239f3ab64302986ea748e2f475.setIcon(icon_f75adca0b1573ca6f3c2f789357891d5);
+        
+    
+        var popup_16f011ce6f1e0c2d6dfb9af652e9d11c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a60e7f0e37779946ab16d9bfdaf4b20c = $(`<div id="html_a60e7f0e37779946ab16d9bfdaf4b20c" style="width: 100.0%; height: 100.0%;">HOSPITAL SAO LUCAS DA PUCRS</div>`)[0];
+                popup_16f011ce6f1e0c2d6dfb9af652e9d11c.setContent(html_a60e7f0e37779946ab16d9bfdaf4b20c);
+            
+        
+
+        marker_b4ac34239f3ab64302986ea748e2f475.bindPopup(popup_16f011ce6f1e0c2d6dfb9af652e9d11c)
+        ;
+
+        
+    
+    
+            var marker_bba3e89e86d9d29b4764f149afba43bd = L.marker(
+                [-22.89982, -43.20767],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_262322fe958ab689550598bd2fcab0ef = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bba3e89e86d9d29b4764f149afba43bd.setIcon(icon_262322fe958ab689550598bd2fcab0ef);
+        
+    
+        var popup_2a9a0628e3d1a3829230ecd4de93fc4c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55da6a5c5c97cec5c99dded08e133830 = $(`<div id="html_55da6a5c5c97cec5c99dded08e133830" style="width: 100.0%; height: 100.0%;">MS INCA II HOSPITAL DO CANCER II</div>`)[0];
+                popup_2a9a0628e3d1a3829230ecd4de93fc4c.setContent(html_55da6a5c5c97cec5c99dded08e133830);
+            
+        
+
+        marker_bba3e89e86d9d29b4764f149afba43bd.bindPopup(popup_2a9a0628e3d1a3829230ecd4de93fc4c)
+        ;
+
+        
+    
+    
+            var marker_df3f60828bd36e72fb2c48edcdce6d04 = L.marker(
+                [-28.30575, -54.2627],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_5085b2753a714e5581c66d2611a3681a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_df3f60828bd36e72fb2c48edcdce6d04.setIcon(icon_5085b2753a714e5581c66d2611a3681a);
+        
+    
+        var popup_7781a9df3c020835c8f4c6569f7e3f8a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e588db4b043b45eaaaf7fc4aafde8ab7 = $(`<div id="html_e588db4b043b45eaaaf7fc4aafde8ab7" style="width: 100.0%; height: 100.0%;">HOSPITAL SANTO ANGELO</div>`)[0];
+                popup_7781a9df3c020835c8f4c6569f7e3f8a.setContent(html_e588db4b043b45eaaaf7fc4aafde8ab7);
+            
+        
+
+        marker_df3f60828bd36e72fb2c48edcdce6d04.bindPopup(popup_7781a9df3c020835c8f4c6569f7e3f8a)
+        ;
+
+        
+    
+    
+            var marker_7b42ffb0af3fe8bb452830fb439df1d3 = L.marker(
+                [-30.00993, -51.15866],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_cf7df76d24efe00aba0f0d261f6799ef = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7b42ffb0af3fe8bb452830fb439df1d3.setIcon(icon_cf7df76d24efe00aba0f0d261f6799ef);
+        
+    
+        var popup_389ce1d70b14fccb489a3b0fdbd3a855 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_747ea670ce9d088c3a6eb9d82174feba = $(`<div id="html_747ea670ce9d088c3a6eb9d82174feba" style="width: 100.0%; height: 100.0%;">HOSPITAL CRISTO REDENTOR</div>`)[0];
+                popup_389ce1d70b14fccb489a3b0fdbd3a855.setContent(html_747ea670ce9d088c3a6eb9d82174feba);
+            
+        
+
+        marker_7b42ffb0af3fe8bb452830fb439df1d3.bindPopup(popup_389ce1d70b14fccb489a3b0fdbd3a855)
+        ;
+
+        
+    
+    
+            var marker_f5cdf0a331d3fc59a71bc556866195fa = L.marker(
+                [-29.77604, -51.14825],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_80af91b5a1135e01733b690358d22247 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f5cdf0a331d3fc59a71bc556866195fa.setIcon(icon_80af91b5a1135e01733b690358d22247);
+        
+    
+        var popup_6d5faa91ea6677fb383663f95739bbaa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e06c64103fb37ffb8eebe0b1fd8d7ede = $(`<div id="html_e06c64103fb37ffb8eebe0b1fd8d7ede" style="width: 100.0%; height: 100.0%;">HOSPITAL CENTENARIO</div>`)[0];
+                popup_6d5faa91ea6677fb383663f95739bbaa.setContent(html_e06c64103fb37ffb8eebe0b1fd8d7ede);
+            
+        
+
+        marker_f5cdf0a331d3fc59a71bc556866195fa.bindPopup(popup_6d5faa91ea6677fb383663f95739bbaa)
+        ;
+
+        
+    
+    
+            var marker_63495eb6e0c60a1231d59ed947c3585c = L.marker(
+                [-30.0293, -51.2141],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_8107301588bb65115ce13623e9f253b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_63495eb6e0c60a1231d59ed947c3585c.setIcon(icon_8107301588bb65115ce13623e9f253b4);
+        
+    
+        var popup_8f18e5c4e84e2c584edb1af5dca9da1b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f87f225a2fe5d40488bc57a52a3a0f86 = $(`<div id="html_f87f225a2fe5d40488bc57a52a3a0f86" style="width: 100.0%; height: 100.0%;">HOSPITAL MATERNO INFANTIL PRESIDENTE VARGAS</div>`)[0];
+                popup_8f18e5c4e84e2c584edb1af5dca9da1b.setContent(html_f87f225a2fe5d40488bc57a52a3a0f86);
+            
+        
+
+        marker_63495eb6e0c60a1231d59ed947c3585c.bindPopup(popup_8f18e5c4e84e2c584edb1af5dca9da1b)
+        ;
+
+        
+    
+    
+            var marker_75c2742c93211f3f61b9d31582a43cda = L.marker(
+                [-23.60074, -51.6384],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_e249603ce67adcf57faa1b4e9865ba59 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_75c2742c93211f3f61b9d31582a43cda.setIcon(icon_e249603ce67adcf57faa1b4e9865ba59);
+        
+    
+        var popup_562bb11485c0141f046cf2d27a8b6549 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9365bfd89f71020198987931ee097dbc = $(`<div id="html_9365bfd89f71020198987931ee097dbc" style="width: 100.0%; height: 100.0%;">HOSPITAL NOSSA SENHORA DE FATIMA</div>`)[0];
+                popup_562bb11485c0141f046cf2d27a8b6549.setContent(html_9365bfd89f71020198987931ee097dbc);
+            
+        
+
+        marker_75c2742c93211f3f61b9d31582a43cda.bindPopup(popup_562bb11485c0141f046cf2d27a8b6549)
+        ;
+
+        
+    
+    
+            var marker_b86734e2910617244b3abb012e73d18f = L.marker(
+                [-29.83883, -51.16122],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_68a7a923dafe904bbe61b00920392794 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b86734e2910617244b3abb012e73d18f.setIcon(icon_68a7a923dafe904bbe61b00920392794);
+        
+    
+        var popup_9a9ea02ecb8697f40874abb7a5362bdc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2140d64e3163545030e98b0ceeb6cde = $(`<div id="html_a2140d64e3163545030e98b0ceeb6cde" style="width: 100.0%; height: 100.0%;">FUNDACAO DE SAUDE PUBLICA SAO CAMILO DE ESTEIO</div>`)[0];
+                popup_9a9ea02ecb8697f40874abb7a5362bdc.setContent(html_a2140d64e3163545030e98b0ceeb6cde);
+            
+        
+
+        marker_b86734e2910617244b3abb012e73d18f.bindPopup(popup_9a9ea02ecb8697f40874abb7a5362bdc)
+        ;
+
+        
+    
+    
+            var marker_f11c821aa0e44ad6103f4da457a7546c = L.marker(
+                [-29.83886, -51.16152],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_cd8e88e5f20b7eb661c9a10cdfc7ffbd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f11c821aa0e44ad6103f4da457a7546c.setIcon(icon_cd8e88e5f20b7eb661c9a10cdfc7ffbd);
+        
+    
+        var popup_a8212a45040ca5d1981ebb6ba22f42e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ebe27d0ad13d22fa20ede23b9ab6a4f3 = $(`<div id="html_ebe27d0ad13d22fa20ede23b9ab6a4f3" style="width: 100.0%; height: 100.0%;">HOSPITAL SAO CAMILO</div>`)[0];
+                popup_a8212a45040ca5d1981ebb6ba22f42e9.setContent(html_ebe27d0ad13d22fa20ede23b9ab6a4f3);
+            
+        
+
+        marker_f11c821aa0e44ad6103f4da457a7546c.bindPopup(popup_a8212a45040ca5d1981ebb6ba22f42e9)
+        ;
+
+        
+    
+    
+            var marker_ba38f37a39ae7aea9e8ed119406a81ba = L.marker(
+                [-30.04891, -51.20902],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_907ceb3f6ab84d42544ebd332073747d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ba38f37a39ae7aea9e8ed119406a81ba.setIcon(icon_907ceb3f6ab84d42544ebd332073747d);
+        
+    
+        var popup_d600c9125b03a4f4653364bd6a347cdb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_779e43b232e25d220acc8be592355e89 = $(`<div id="html_779e43b232e25d220acc8be592355e89" style="width: 100.0%; height: 100.0%;">INSTITUTO DE CARDIOLOGIA</div>`)[0];
+                popup_d600c9125b03a4f4653364bd6a347cdb.setContent(html_779e43b232e25d220acc8be592355e89);
+            
+        
+
+        marker_ba38f37a39ae7aea9e8ed119406a81ba.bindPopup(popup_d600c9125b03a4f4653364bd6a347cdb)
+        ;
+
+        
+    
+    
+            var marker_ee53bf1e8585e2b1a4a608c32e0454d2 = L.marker(
+                [-26.96504, -52.53123],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_3bf8b9303a5be3ad98549f37e881cda3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ee53bf1e8585e2b1a4a608c32e0454d2.setIcon(icon_3bf8b9303a5be3ad98549f37e881cda3);
+        
+    
+        var popup_18c962b8ec5d2464942a7ab51f7c2c3c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_098cfe508ee0b68b7e1ff5f08a765304 = $(`<div id="html_098cfe508ee0b68b7e1ff5f08a765304" style="width: 100.0%; height: 100.0%;">HOSPITAL FREI BRUNO</div>`)[0];
+                popup_18c962b8ec5d2464942a7ab51f7c2c3c.setContent(html_098cfe508ee0b68b7e1ff5f08a765304);
+            
+        
+
+        marker_ee53bf1e8585e2b1a4a608c32e0454d2.bindPopup(popup_18c962b8ec5d2464942a7ab51f7c2c3c)
+        ;
+
+        
+    
+    
+            var marker_ea309b49e9eaee65730aef7843064cf5 = L.marker(
+                [-25.51947, -54.57639],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_a6c854414695ac61bc0ddcc81b5e78ba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ea309b49e9eaee65730aef7843064cf5.setIcon(icon_a6c854414695ac61bc0ddcc81b5e78ba);
+        
+    
+        var popup_6bc485278455233e78cc45b0e7df66d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_27df1c26c48efeec771269f16c8178ea = $(`<div id="html_27df1c26c48efeec771269f16c8178ea" style="width: 100.0%; height: 100.0%;">HOSPITAL MUNICIPAL PADRE GERMANO LAUCK</div>`)[0];
+                popup_6bc485278455233e78cc45b0e7df66d5.setContent(html_27df1c26c48efeec771269f16c8178ea);
+            
+        
+
+        marker_ea309b49e9eaee65730aef7843064cf5.bindPopup(popup_6bc485278455233e78cc45b0e7df66d5)
+        ;
+
+        
+    
+    
+            var marker_54da9135bc54389389e2b5b468ad7086 = L.marker(
+                [-30.03866, -51.20586],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_ef6852096ff932f38bad78f5994e6d43 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_54da9135bc54389389e2b5b468ad7086.setIcon(icon_ef6852096ff932f38bad78f5994e6d43);
+        
+    
+        var popup_c032e7d04334eadb1eee7c88b8ec7684 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_28728270ae71446e631f6776149a314f = $(`<div id="html_28728270ae71446e631f6776149a314f" style="width: 100.0%; height: 100.0%;">UAA HOSPITAL DE CLINICAS DE PORTO ALEGRE</div>`)[0];
+                popup_c032e7d04334eadb1eee7c88b8ec7684.setContent(html_28728270ae71446e631f6776149a314f);
+            
+        
+
+        marker_54da9135bc54389389e2b5b468ad7086.bindPopup(popup_c032e7d04334eadb1eee7c88b8ec7684)
+        ;
+
+        
+    
+    
+            var marker_0f95b8330c5b6956c64230994beff92e = L.marker(
+                [-22.77017, -47.14868],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_acc9e6db3cf9d2902695fb4b5b4c78a5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0f95b8330c5b6956c64230994beff92e.setIcon(icon_acc9e6db3cf9d2902695fb4b5b4c78a5);
+        
+    
+        var popup_4e2f24ffb80f1ee0b85185860ab557a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_041cbd868b08c755a107fa16f549790a = $(`<div id="html_041cbd868b08c755a107fa16f549790a" style="width: 100.0%; height: 100.0%;">HOSPITAL MUNICIPAL DE PAULINIA</div>`)[0];
+                popup_4e2f24ffb80f1ee0b85185860ab557a9.setContent(html_041cbd868b08c755a107fa16f549790a);
+            
+        
+
+        marker_0f95b8330c5b6956c64230994beff92e.bindPopup(popup_4e2f24ffb80f1ee0b85185860ab557a9)
+        ;
+
+        
+    
+    
+            var marker_a476ee78a20732717ddbaa5c3f3a4c7f = L.marker(
+                [-29.82342, -51.16535],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_6d1a69bacc1d25c1bae3391a2958a346 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a476ee78a20732717ddbaa5c3f3a4c7f.setIcon(icon_6d1a69bacc1d25c1bae3391a2958a346);
+        
+    
+        var popup_71674ac3ec6ddf35390d56c203253672 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd7fe3ec5b5eb57da889b6f81597aab4 = $(`<div id="html_fd7fe3ec5b5eb57da889b6f81597aab4" style="width: 100.0%; height: 100.0%;">FUNDACAO HOSPITALAR DE SAPUCAIA DO SUL</div>`)[0];
+                popup_71674ac3ec6ddf35390d56c203253672.setContent(html_fd7fe3ec5b5eb57da889b6f81597aab4);
+            
+        
+
+        marker_a476ee78a20732717ddbaa5c3f3a4c7f.bindPopup(popup_71674ac3ec6ddf35390d56c203253672)
+        ;
+
+        
+    
+    
+            var marker_1f2c9a6ab791e4f759d1730386ddbadf = L.marker(
+                [-30.02404, -51.2098],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_cd32373fb59e5cc3ed2e7e3cd2695ab1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1f2c9a6ab791e4f759d1730386ddbadf.setIcon(icon_cd32373fb59e5cc3ed2e7e3cd2695ab1);
+        
+    
+        var popup_b3487f25a12202a31fa1fe1a336909fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96fda6402ec9bfeb764bfe90931ae5d3 = $(`<div id="html_96fda6402ec9bfeb764bfe90931ae5d3" style="width: 100.0%; height: 100.0%;">HOSPITAL PORTO ALEGRE ABSM</div>`)[0];
+                popup_b3487f25a12202a31fa1fe1a336909fa.setContent(html_96fda6402ec9bfeb764bfe90931ae5d3);
+            
+        
+
+        marker_1f2c9a6ab791e4f759d1730386ddbadf.bindPopup(popup_b3487f25a12202a31fa1fe1a336909fa)
+        ;
+
+        
+    
+    
+            var marker_c13b9b30dd2cca5539cf5309ba8f03c1 = L.marker(
+                [-29.84214, -49.88194],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_5b7cf7b2b392e05843eebdba385a07b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c13b9b30dd2cca5539cf5309ba8f03c1.setIcon(icon_5b7cf7b2b392e05843eebdba385a07b8);
+        
+    
+        var popup_7a156eeeb516dd3a3cba9301d785a8b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c685b1ea635005ae1883011b2c05e2e = $(`<div id="html_8c685b1ea635005ae1883011b2c05e2e" style="width: 100.0%; height: 100.0%;">HOSPITAL SAO VICENTE DE PAULO</div>`)[0];
+                popup_7a156eeeb516dd3a3cba9301d785a8b0.setContent(html_8c685b1ea635005ae1883011b2c05e2e);
+            
+        
+
+        marker_c13b9b30dd2cca5539cf5309ba8f03c1.bindPopup(popup_7a156eeeb516dd3a3cba9301d785a8b0)
+        ;
+
+        
+    
+    
+            var marker_4d60e193711700c4b6177a0339c556ab = L.marker(
+                [-30.84797, -51.81477],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_6c8e3235ac39cc493d3d648789ba697d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4d60e193711700c4b6177a0339c556ab.setIcon(icon_6c8e3235ac39cc493d3d648789ba697d);
+        
+    
+        var popup_ce9726c6cfeebb40079d20834b75e620 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4d433c548ab0e16409a7038e406fa6b = $(`<div id="html_c4d433c548ab0e16409a7038e406fa6b" style="width: 100.0%; height: 100.0%;">HOSPITAL NOSSA SENHORA APARECIDA DE CAMAQUA</div>`)[0];
+                popup_ce9726c6cfeebb40079d20834b75e620.setContent(html_c4d433c548ab0e16409a7038e406fa6b);
+            
+        
+
+        marker_4d60e193711700c4b6177a0339c556ab.bindPopup(popup_ce9726c6cfeebb40079d20834b75e620)
+        ;
+
+        
+    
+    
+            var marker_b8c7dc4a459796b6dabebc3f64db208b = L.marker(
+                [-20.29506, -50.24612],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_86474effb335390ea88fe2d0822754e4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b8c7dc4a459796b6dabebc3f64db208b.setIcon(icon_86474effb335390ea88fe2d0822754e4);
+        
+    
+        var popup_be291e7300454e6f47ed4852f44a47be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b6f6bc0b4d1321645b7fcda55c878203 = $(`<div id="html_b6f6bc0b4d1321645b7fcda55c878203" style="width: 100.0%; height: 100.0%;">SANTA CASA DE FERNANDOPOLIS</div>`)[0];
+                popup_be291e7300454e6f47ed4852f44a47be.setContent(html_b6f6bc0b4d1321645b7fcda55c878203);
+            
+        
+
+        marker_b8c7dc4a459796b6dabebc3f64db208b.bindPopup(popup_be291e7300454e6f47ed4852f44a47be)
+        ;
+
+        
+    
+    
+            var marker_bf31bf2ca3d8effa4d95c67d84905ed1 = L.marker(
+                [-29.57343, -53.44339],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_ac29f5cb14b6a6edd01ed62b322c36ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bf31bf2ca3d8effa4d95c67d84905ed1.setIcon(icon_ac29f5cb14b6a6edd01ed62b322c36ec);
+        
+    
+        var popup_d453ff40240ec2129fb2b02a36a7dea7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c7c0ff85f52545d13aa57d31485dcd0d = $(`<div id="html_c7c0ff85f52545d13aa57d31485dcd0d" style="width: 100.0%; height: 100.0%;">HOSPITAL DE CARIDADE SAO ROQUE</div>`)[0];
+                popup_d453ff40240ec2129fb2b02a36a7dea7.setContent(html_c7c0ff85f52545d13aa57d31485dcd0d);
+            
+        
+
+        marker_bf31bf2ca3d8effa4d95c67d84905ed1.bindPopup(popup_d453ff40240ec2129fb2b02a36a7dea7)
+        ;
+
+        
+    
+    
+            var marker_10dd1ca2294aaa5c1907845b11784a29 = L.marker(
+                [-30.02219, -51.15364],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_83ba20745f702b63449bbc93d49802ae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_10dd1ca2294aaa5c1907845b11784a29.setIcon(icon_83ba20745f702b63449bbc93d49802ae);
+        
+    
+        var popup_233b58d5598766db2e4408e988bd9c04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f09a97ef1f23243b5226e0922caa7286 = $(`<div id="html_f09a97ef1f23243b5226e0922caa7286" style="width: 100.0%; height: 100.0%;">HOSPITAL BANCO DE OLHOS DE PORTO ALEGRE</div>`)[0];
+                popup_233b58d5598766db2e4408e988bd9c04.setContent(html_f09a97ef1f23243b5226e0922caa7286);
+            
+        
+
+        marker_10dd1ca2294aaa5c1907845b11784a29.bindPopup(popup_233b58d5598766db2e4408e988bd9c04)
+        ;
+
+        
+    
+    
+            var marker_4c04145222cf6bad532c598529fe2e05 = L.marker(
+                [-21.18235, -47.81477],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_2f79d763e95b76df96e37efb51c6601c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4c04145222cf6bad532c598529fe2e05.setIcon(icon_2f79d763e95b76df96e37efb51c6601c);
+        
+    
+        var popup_ea97510c977f39e3c39e0d05b0a21b5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e09fef8243a27513803d409dfbb0b38 = $(`<div id="html_2e09fef8243a27513803d409dfbb0b38" style="width: 100.0%; height: 100.0%;">HOSPITAL IMACULADA CONCEICAO RIBEIRAO PRETO</div>`)[0];
+                popup_ea97510c977f39e3c39e0d05b0a21b5f.setContent(html_2e09fef8243a27513803d409dfbb0b38);
+            
+        
+
+        marker_4c04145222cf6bad532c598529fe2e05.bindPopup(popup_ea97510c977f39e3c39e0d05b0a21b5f)
+        ;
+
+        
+    
+    
+            var marker_2d4a34beb095630d6c853f16ca267934 = L.marker(
+                [-29.90615, -51.19809],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_fc04528d2dcdd12fa74a840b2a6cac38 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2d4a34beb095630d6c853f16ca267934.setIcon(icon_fc04528d2dcdd12fa74a840b2a6cac38);
+        
+    
+        var popup_f2bdccc0133b446b49005bc851eaf734 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_181c2c54f6c73cb34e91772a2a6f1970 = $(`<div id="html_181c2c54f6c73cb34e91772a2a6f1970" style="width: 100.0%; height: 100.0%;">HOSPITAL DE PRONTO SOCORRO PREF DR MARCOS ANTONIO RONCHETTI</div>`)[0];
+                popup_f2bdccc0133b446b49005bc851eaf734.setContent(html_181c2c54f6c73cb34e91772a2a6f1970);
+            
+        
+
+        marker_2d4a34beb095630d6c853f16ca267934.bindPopup(popup_f2bdccc0133b446b49005bc851eaf734)
+        ;
+
+        
+    
+    
+            var marker_0b6b4bf63ccb5db8af039adf5677fe99 = L.marker(
+                [-27.60272, -48.54441],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_1474b435f00822eaf3932cc02156379c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0b6b4bf63ccb5db8af039adf5677fe99.setIcon(icon_1474b435f00822eaf3932cc02156379c);
+        
+    
+        var popup_f1d45823a40037fd33998d3b09669035 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f98e55fc0b28b4596fbdfd9f413ee90 = $(`<div id="html_2f98e55fc0b28b4596fbdfd9f413ee90" style="width: 100.0%; height: 100.0%;">IMPERIAL HOSPITAL DE CARIDADE</div>`)[0];
+                popup_f1d45823a40037fd33998d3b09669035.setContent(html_2f98e55fc0b28b4596fbdfd9f413ee90);
+            
+        
+
+        marker_0b6b4bf63ccb5db8af039adf5677fe99.bindPopup(popup_f1d45823a40037fd33998d3b09669035)
+        ;
+
+        
+    
+    
+            var marker_80945f60cbf9b23d3f121277686a2fcb = L.marker(
+                [-29.44715, -51.30769],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_d4a6cfe965df31ffa518d8d859fd7688 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_80945f60cbf9b23d3f121277686a2fcb.setIcon(icon_d4a6cfe965df31ffa518d8d859fd7688);
+        
+    
+        var popup_746fe184c88dd58d603cead260dc6f95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5ea61be1daacb7cd308b26825b1ef78 = $(`<div id="html_e5ea61be1daacb7cd308b26825b1ef78" style="width: 100.0%; height: 100.0%;">HOSPITAL SCHLATTER</div>`)[0];
+                popup_746fe184c88dd58d603cead260dc6f95.setContent(html_e5ea61be1daacb7cd308b26825b1ef78);
+            
+        
+
+        marker_80945f60cbf9b23d3f121277686a2fcb.bindPopup(popup_746fe184c88dd58d603cead260dc6f95)
+        ;
+
+        
+    
+    
+            var marker_dfe52eeeae51652afa602bef15e12ecc = L.marker(
+                [-27.24075, -48.6345],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_4ee26fa317b8cb26fba16e4102ac1db1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_dfe52eeeae51652afa602bef15e12ecc.setIcon(icon_4ee26fa317b8cb26fba16e4102ac1db1);
+        
+    
+        var popup_9c7adc5c8b7afe69f1238487e63e0d15 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3059e239b5fcc464583917b17173e536 = $(`<div id="html_3059e239b5fcc464583917b17173e536" style="width: 100.0%; height: 100.0%;">HOSPITAL SAO JOSE DE TIJUCAS</div>`)[0];
+                popup_9c7adc5c8b7afe69f1238487e63e0d15.setContent(html_3059e239b5fcc464583917b17173e536);
+            
+        
+
+        marker_dfe52eeeae51652afa602bef15e12ecc.bindPopup(popup_9c7adc5c8b7afe69f1238487e63e0d15)
+        ;
+
+        
+    
+    
+            var marker_57ea40f6550cdf31110ef80b88c86500 = L.marker(
+                [-28.65835, -55.99756],
+                {
+}
+            ).addTo(map_16e6888d184f5bbbfe80d44c59c8b0d3);
+        
+    
+            var icon_73eb0181db9efa295295069b7fec83f7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_57ea40f6550cdf31110ef80b88c86500.setIcon(icon_73eb0181db9efa295295069b7fec83f7);
+        
+    
+        var popup_27b557849025aa43727a0a973f7d0851 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_103ad13f671909a6d9e16806e375db2b = $(`<div id="html_103ad13f671909a6d9e16806e375db2b" style="width: 100.0%; height: 100.0%;">HOSPITAL IVAN GOULART</div>`)[0];
+                popup_27b557849025aa43727a0a973f7d0851.setContent(html_103ad13f671909a6d9e16806e375db2b);
+            
+        
+
+        marker_57ea40f6550cdf31110ef80b88c86500.bindPopup(popup_27b557849025aa43727a0a973f7d0851)
+        ;
+
+        
+    
+</script>
+</html>
